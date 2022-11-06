@@ -30,12 +30,14 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    /*color: #555;
-    border-radius: 30px;
-    background: skyblue;*/
+    border-radius: 5px;
     color: white;
     margin: 30px 0;
     padding: 8px 10px;
+    transition: background-color 0.5s;
+}
+a:hover{
+    background: #4DC9EA;
 }
 /*Pondremos otros colores*/
 p{
@@ -62,6 +64,7 @@ p{
     max-width: 80%;
     padding: 10px 0;
     padding-left: 100px;
+    padding-bottom: 300px;
 
 }
 .col-2 h1{
@@ -70,6 +73,46 @@ p{
     margin: 25px 0;
     color: seagreen;
 }
+.btn{
+    display: inline-block;
+    background: seagreen;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #4DC9EA;
+}
 .header {
     background-image: linear-gradient(to right bottom, #4dc9ea, #44d3d8, #65dabd, #93dea0, #c2dd88, #c5d57d, #c9cd74, #ccc56b, #a6b861, #80aa5b, #5a9b58, #2e8b57);
+}
+.header .row{
+    margin-top: 70px;
+}
+.categorias{
+    /*
+    margin: 30px 0;
+    */
+    background-image: linear-gradient(to bottom, #ffffff, #f2f3fd, #e0e9fb, #cae0f9, #b0d8f5, #a0d4f3, #8ed1ef, #7bcdeb, #71cceb, #67cbeb, #5bcaea, #4dc9ea);}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 p{
+    font-size: 20px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.small-container h2{
+
 }
