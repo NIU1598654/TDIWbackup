@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .navbar{
     padding: 20px;
     align-items: center;
@@ -10,7 +14,7 @@
 }
 nav{
     flex: 1;
-    text-align: center;
+    text-align: right;
 }
 nav ul{
     display: inline-block;
@@ -18,12 +22,20 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
+    /*
     margin-right: 30px;
-    font-size: 20px;
+    */
+    font-size: 28px;
+    font-family: 'Six Caps', sans-serif;
 }
 a{
     text-decoration: none;
-    color: #555;
+    /*color: #555;
+    border-radius: 30px;
+    background: skyblue;*/
+    color: white;
+    margin: 30px 0;
+    padding: 8px 10px;
 }
 /*Pondremos otros colores*/
 p{
@@ -44,6 +56,7 @@ p{
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
+    padding-top: 30px;
 }
 .col-2 img{
     max-width: 80%;
@@ -55,4 +68,8 @@ p{
     font-size: 40px;
     line-height: 25px;
     margin: 25px 0;
+    color: seagreen;
+}
+.header {
+    background-image: linear-gradient(to right bottom, #4dc9ea, #44d3d8, #65dabd, #93dea0, #c2dd88, #c5d57d, #c9cd74, #ccc56b, #a6b861, #80aa5b, #5a9b58, #2e8b57);
 }
