@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="28c889ea-9e2b-42e9-b1e2-811e7bfc47b2" name="TDIW" url="https://tdiw-k7.deic-docencia.uab.cat">
+        <fileTransfer rootFolder="/home/TDIW/tdiw-k7" accessType="SFTP" host="deic-dc15.uab.cat" port="22" sshConfigId="2c1990a3-edae-4ac4-8d66-dacf7e50a07b" sshConfig="tdiw-k7@deic-dc15.uab.cat:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
