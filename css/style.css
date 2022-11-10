@@ -116,3 +116,9 @@ p{
 .small-container h2{
 
 }
+.productos{
+    background-image: linear-gradient(to bottom, #ffffff, #ffefff, #ffdde5, #ffd2b3, #ffd580);
+}
+.detalles{
+    background-image: linear-gradient(to bottom, #ffffff, #cedef1, #84c4d7, #3aaaa3, #2e8b57);
+}

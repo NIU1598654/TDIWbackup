@@ -1,0 +1,9 @@
+/*Los ajustes que hemos declarado en style.css ya se han implementado a las clases que hemos especificado anteriormente*/
+h1{
+    text-align: center;
+}
+
+.btn{
+    align-items: center;
+    /*Se quiere que el botón que muestra "Veamos esos productos" esté centrado con el texto pero no se consigue con align-text ni otras opciones. Mirarlo*/
+}
