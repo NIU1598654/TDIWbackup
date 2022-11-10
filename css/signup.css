@@ -2,7 +2,21 @@
     text-align: center;
 }
 
-/*
-.grupo_form{
-    text-align: justify-all; Esto no puede funcionar porque justo antes hemos declarado una característica que tiene prioridad
-}*/
+.form{
+    /*
+    background-color: #FFD580;
+    */
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 15px #FFD580;
+}
+.form .grupo_form label{
+    display: block;
+    color: seagreen;
+}
+.form .grupo_form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: #FFD580 2px solid;
+}
