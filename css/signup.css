@@ -1,7 +1,9 @@
+html{
+    background: linear-gradient(to right bottom, #4dc9ea, #44d3d8, #65dabd, #93dea0, #c2dd88, #c5d57d, #c9cd74, #ccc56b, #a6b861, #80aa5b, #5a9b58, #2e8b57);
+}
 .col-2{
     text-align: center;
 }
-
 .form{
     /*
     background-color: #FFD580;
@@ -19,4 +21,21 @@
     padding: 10px;
     border-radius: 5px;
     border: #FFD580 2px solid;
+}
+.form button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background: seagreen;
+    transition: background 0.5s;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+}
+.form button:hover{
+    background-color: #4DC9EA;
+}
+#crearcuenta{
+    padding: 1px;
 }
