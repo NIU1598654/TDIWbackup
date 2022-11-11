@@ -37,31 +37,49 @@
           te conviertes en
           todo un SeaDog.</p>
         <form class="form">
+
           <div class="grupo_form">
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" required name="nombre" id="nombre">
           </div> <!--Fin contenedor nombre-->
 
           <div class="grupo_form">
             <label for="apellidos">Apellidos</label>
-            <input type="text" name="apellidos" id="apellidos">
+            <input type="text" required name="apellidos" id="apellidos">
           </div>  <!--Fin contenedor apellidos-->
 
           <div class="grupo_form">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" required name="email" id="email">
           </div>  <!--Fin contenedor email-->
 
           <div class="grupo_form">
+            <label for="direccion">Dirección</label>
+            <input type="text" maxlength="30" required name="direccion" id="direccion">
+          </div>  <!--Fin contenedor dirección-->
+
+          <div class="grupo_form">
+            <label for="localidad">Localidad</label>
+            <input type="text" maxlength="30" required name="localidad" id="localidad">
+          </div>  <!--Fin contenedor localidad-->
+
+          <div class="grupo_form">
+            <label for="codPost">Código Postal</label>
+            <input type="text"  required name="email" id="codPost">
+          </div>  <!--Fin contenedor código postal-->
+
+          <div class="grupo_form">
             <label for="psswd">Contraseña</label>
-            <input type="password" name="psswd" id="psswd">
+            <input type="password" required name="psswd" id="psswd">
           </div>  <!--Fin contenedor password-->
 
           <div class="grupo_form">
             <label for="psswdConf">ContraseñaConf</label>
-            <input type="password" name="psswdConf" id="psswdConf">
+            <input type="password" required name="psswdConf" id="psswdConf">
           </div>  <!--Fin contenedor passwordConf-->
+
           <button type="submit">Sign Up</button>
+
           <p id="crearcuenta">Accedo a los servicios y condiciones a los que tengo acceso mediante <a href="#">Servicios</a> y <a
                   href="#">Condiciones</a></p>
           <br><br><br><br><br><br>
@@ -72,3 +90,8 @@
 </div> <!--Final de header-->
 </body>
 </html>
+
+
+
+<!--HAY QUE MODIFICAR LOS CAMPOS DE LOS FORMULARIOS DE SIGNUP Y LOGIN PARA SEGUIR LAS DIRECTIVAS DEL PDF DE LA
+PRÁCTICA 1, PÁGINA 13-->
