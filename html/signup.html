@@ -25,7 +25,6 @@
           <li><a href="../index.html#categorias">Categorías</a></li>
           <li><a href="productos.html">Productos</a></li>
           <li><a href="login.html">Log In</a></li>
-
         </ul>
       </nav>
     </div> <!--Final de navbar-->
@@ -36,6 +35,7 @@
         <p>Únete a nuestras filas, consigue créditos para ahorrar en tus próximas compras mientras
           te conviertes en
           todo un SeaDog.</p>
+
         <form class="form">
 
           <div class="grupo_form">
@@ -65,7 +65,7 @@
 
           <div class="grupo_form">
             <label for="codPost">Código Postal</label>
-            <input type="text"  required name="email" id="codPost">
+            <input type="text" pattern="[0-9]*" maxlength="5" required name="codPost" id="codPost">
           </div>  <!--Fin contenedor código postal-->
 
           <div class="grupo_form">
@@ -73,16 +73,16 @@
             <input type="password" required name="psswd" id="psswd">
           </div>  <!--Fin contenedor password-->
 
-          <div class="grupo_form">
+          <!--<div class="grupo_form">
             <label for="psswdConf">ContraseñaConf</label>
             <input type="password" required name="psswdConf" id="psswdConf">
-          </div>  <!--Fin contenedor passwordConf-->
+          </div>  &lt;!&ndash;Fin contenedor passwordConf&ndash;&gt;-->
 
           <button type="submit">Sign Up</button>
 
           <p id="crearcuenta">Accedo a los servicios y condiciones a los que tengo acceso mediante <a href="#">Servicios</a> y <a
                   href="#">Condiciones</a></p>
-          <br><br><br><br><br><br>
+          <br>
         </form> <!--Final de form-->
       </div> <!--Final de col-2-->
     </div><!--Final de fila-->
