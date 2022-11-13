@@ -21,10 +21,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../index.html#home">Home</a></li>
-                    <li><a href="../index.html#categorias">Categorías</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="indexOriginalhtml.php#home">Home</a></li>
+                    <li><a href="indexOriginalhtml.php#categorias">Categorías</a></li>
+                    <li><a href="productos.php">Productos</a></li>
+                    <li><a href="signup.php">Sign Up</a></li>
                 </ul>
             </nav>
         </div> <!--Final de navbar-->
@@ -46,7 +46,7 @@
                     </div>  <!--Fin contenedor password-->
 
                     <button type="submit">Log In</button>
-                    <p id="crearcuenta">Aún no tengo cuenta <a href="signup.html">Crear cuenta</a></p>
+                    <p id="crearcuenta">Aún no tengo cuenta <a href="signup.php">Crear cuenta</a></p>
                     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 </form> <!--Final de form-->
             </div> <!--Final de col-2-->

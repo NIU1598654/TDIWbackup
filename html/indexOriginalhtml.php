@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>WellFitted Diving Gear</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,900&display=swap" rel="stylesheet">
@@ -17,15 +17,15 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="Captura de pantalla 2022-11-06 a las 13.14.06.png" width="150px">
+                <img src="../Captura%20de%20pantalla%202022-11-06%20a%20las%2013.14.06.png" width="150px">
             </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#categorias">Categorías</a></li>
-                    <li><a href="html/productos.html">Productos</a></li>
-                    <li><a href="html/login.html">Log In</a></li>
-                    <li><a href="html/signup.html">Sign Up</a></li>
+                    <li><a href="productos.php">Productos</a></li>
+                    <li><a href="login.php">Log In</a></li>
+                    <li><a href="signup.php">Sign Up</a></li>
                 </ul>
             </nav>
         </div>

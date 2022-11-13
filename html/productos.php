@@ -21,10 +21,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="../index.html#home">Home</a></li>
-                    <li><a href="../index.html#categorias">Categorías</a></li>
-                    <li><a href="login.html">Log In</a></li>
-                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="indexOriginalhtml.php#home">Home</a></li>
+                    <li><a href="indexOriginalhtml.php#categorias">Categorías</a></li>
+                    <li><a href="login.php">Log In</a></li>
+                    <li><a href="signup.php">Sign Up</a></li>
 
                 </ul>
             </nav>
@@ -38,7 +38,7 @@
                     relacionado con el buceo ofrece, de esta manera podrás elegir el equipo que se adapte más a tu
                     situación actual .</p>
                 <br>
-                <a href="detalles.html" class="btn" id="btn">Veamos esos productos!</a>
+                <a href="detalles.php" class="btn" id="btn">Veamos esos productos!</a>
                 <br><br><br><br><br><br>
             </div> <!--Final de col-2-->
         </div><!--Final de fila-->

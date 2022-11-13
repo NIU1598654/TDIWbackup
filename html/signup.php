@@ -21,10 +21,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="../index.html#home">Home</a></li>
-          <li><a href="../index.html#categorias">Categorías</a></li>
-          <li><a href="productos.html">Productos</a></li>
-          <li><a href="login.html">Log In</a></li>
+          <li><a href="indexOriginalhtml.php#home">Home</a></li>
+          <li><a href="indexOriginalhtml.php#categorias">Categorías</a></li>
+          <li><a href="productos.php">Productos</a></li>
+          <li><a href="login.php">Log In</a></li>
         </ul>
       </nav>
     </div> <!--Final de navbar-->
