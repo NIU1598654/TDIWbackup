@@ -36,7 +36,7 @@
           te conviertes en
           todo un SeaDog.</p>
 
-        <form class="form">
+        <form class="form" method="post">
 
           <div class="grupo_form">
             <label for="nombre">Nombre</label>

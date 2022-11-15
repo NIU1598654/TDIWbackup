@@ -34,7 +34,7 @@
                 <h1>Bienvenido Diver!</h1>
                 <p>Inicia sesión para acceder a tus datos de compra, créditos acumulados y para darnos feedback de
                     lo que te gustaría que mejoremos en la tienda.</p>
-                <form class="form">
+                <form class="form" method="post">
                     <div class="grupo_form">
                         <label for="email">Email</label>
                         <input type="email" required name="email" id="email">

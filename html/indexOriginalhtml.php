@@ -17,7 +17,7 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="../Captura%20de%20pantalla%202022-11-06%20a%20las%2013.14.06.png" width="150px">
+                <img src="../Logo.png" width="150px">
             </div>
             <nav>
                 <ul>
