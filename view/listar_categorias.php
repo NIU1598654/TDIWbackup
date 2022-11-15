@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>WellFitted Diving Gear's Products</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/productos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,900&display=swap" rel="stylesheet">
