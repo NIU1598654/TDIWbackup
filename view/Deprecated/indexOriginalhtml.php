@@ -17,15 +17,15 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="../Logo.png" width="150px">
+                <img src="../../Logo.png" width="150px">
             </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#categorias">Categorías</a></li>
-                    <li><a href="productos.php">Productos</a></li>
-                    <li><a href="login.php">Log In</a></li>
-                    <li><a href="signup.php">Sign Up</a></li>
+                    <li><a href="../listar_productos_categoria.php">Productos</a></li>
+                    <li><a href="../login.php">Log In</a></li>
+                    <li><a href="../registroSignUp.php">Sign Up</a></li>
                 </ul>
             </nav>
         </div>
