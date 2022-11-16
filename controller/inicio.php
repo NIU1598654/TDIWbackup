@@ -1,2 +1,2 @@
-<?php echo "controlador";
-require __DIR__ . '../view/resource_inicio.php';
+<?php
+require __DIR__ .'/../view/inicio.php';
