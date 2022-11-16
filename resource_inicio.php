@@ -4,6 +4,5 @@
 </head>
 
 <body>
-<?php require __DIR__ . '/controller/inicio.php'; ?>
 </body>
 </html>
