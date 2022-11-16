@@ -20,4 +20,7 @@ switch ($action){
     case 'inicio':
         require __DIR__.'resource_inicio.php';
         break;
+    default:
+        require __DIR__.'../controller/inicio.php';
+        break;
 }
